@@ -6,6 +6,7 @@ public class SentinalSearch{
         while(arr[i]!=x){
             i++;
         }
+        arr[n-1]=last_element;
         if(i<n-1||arr[n-1]==x){
             return i;
         }
