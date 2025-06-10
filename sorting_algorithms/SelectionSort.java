@@ -15,7 +15,7 @@ public class SelectionSort{
         }
     }
     public static void main(String[] args){
-        int arr[]={64,25,22,12,11};
+        int arr[]= {64,25,22,12,11};
         selectionsort(arr);
         for(int val:arr){
             System.out.print(val+" ");
