@@ -41,5 +41,4 @@ I am solving problems from platforms like **LeetCode**, **GeeksforGeeks**, **Cod
 
 ---
 
-## 📂 Folder Structure
 
