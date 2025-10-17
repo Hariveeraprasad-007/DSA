@@ -1,3 +1,4 @@
+
 public class FirstOccurance{
     public static int firstoccurance(int arr[],int target){
         int l=0;
