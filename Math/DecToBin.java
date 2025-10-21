@@ -14,10 +14,16 @@ public class DecToBin{
         }
         bin.append('0');
     }
-    public static void usingBitwise(){
-
+    public static void usingBitwise(int n ,StringBuilder bin){
+        while(n>0){
+            int b=n&1;
+            bin.append(b);
+            n=n>>1;
+        }
+        bin.reverse().toString();
     }
-    public static void usingBuiltin(){
-        
+    public static void usingBuiltin(int n){
+        String val=String.format("%s",Integer.toBinaryString(n));
+        System.out.println(val);
     }
 }
